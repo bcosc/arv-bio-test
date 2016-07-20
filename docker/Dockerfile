@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:14.04 # Note: Use `docker pull ubuntu:14.04` to get the base image needed to build this Dockerfile
 MAINTAINER Bryan Cosca <bcosc@curoverse.com>
 
 USER root
